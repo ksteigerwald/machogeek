@@ -9,13 +9,22 @@ per_page: 10
     <p><%= link_to 'Previous page', prev_page %></p>
   <% end %>
 <% end %>
+<section class="articles row">
+  <% page_articles.each_with_index do |article, i| %>
+    <article  class="four columns <%= article.slug %>">
+      <a href="<%= article.url %>">
+        <header>
+          <span><%= article.title %></span>
+        </header>
+        <span><%= article.date.strftime('%b %e') %></span>
+          <p>
+            <%= article.summary(250) %>
+          </p>
+      </a>
+    </article>
+  <% end %>
 
-<% page_articles.each_with_index do |article, i| %>
-  <h2><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></h2>
-  <!-- use article.summary(250) if you have Nokogiri available to show just
-       the first 250 characters -->
-  <%= article.body %>
-<% end %>
+</section>
 
 <% if paginate %>
   <% if next_page %>
