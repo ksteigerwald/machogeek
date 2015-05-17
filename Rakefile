@@ -1,7 +1,11 @@
 require 'rubygems'
-require File.expand_path('../middleman-core/lib/middleman-core/version.rb', __FILE__)
 require 'statistrano'
 
+namespace :middleman do
+  task build: :environment do
+    system "middleman build"
+  end
+end
 deployment = define_deployment "basic" do
 
   hostname   'velaru'
