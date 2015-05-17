@@ -6,6 +6,7 @@ namespace :middleman do
     system "middleman build"
   end
 end
+
 deployment = define_deployment "basic" do
 
   hostname   'velaru'
@@ -29,4 +30,12 @@ end
 
 deployment.register_tasks
 
+deployment = define_deployment "production", :releases do
 
+  release_count 5
+  release_dir "releases"
+  public_dir "current"
+
+end
+
+deployment.register_tasks
