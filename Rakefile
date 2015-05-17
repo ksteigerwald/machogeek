@@ -9,7 +9,7 @@ namespace :middleman do
   end
 end
 
-deployment = define_deployment "basic" do
+deployment = define_deployment "base" do
 
   hostname   'velaru'
   #user       'freddie' # optional if remote is setup in .ssh/config
