@@ -25,15 +25,4 @@ end
 
 deployment.register_tasks
 
-deployment = define_deployment "production", :releases do
-
-  # in addition to the "base" config options, there
-  # are some (all defaulted) options specific for releases
-  release_count 5
-  release_dir  "releases"
-  public_dir   "current"
-
-end
-
-deployment.register_tasks
 
