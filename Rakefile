@@ -1,6 +1,8 @@
 require 'rubygems'
 require 'statistrano'
 
+Dir.glob('tasks/*.rake').each { |r| import r }
+
 namespace :middleman do
   task :build do
     system "middleman build"
@@ -30,12 +32,3 @@ end
 
 deployment.register_tasks
 
-deployment = define_deployment "production", :releases do
-
-  release_count 5
-  release_dir "releases"
-  public_dir "current"
-
-end
-
-deployment.register_tasks
