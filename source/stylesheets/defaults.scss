@@ -60,6 +60,15 @@ aside {
   h6 {
     text-transform:uppercase;
     font-weight:500;
+    margin:0;
+  }
+  ul {
+    list-style:none;
+    padding:0;
+    margin:0;
+    li {
+      font-size:1rem;
+    }
   }
 }
 section.articles {
@@ -95,4 +104,9 @@ section.articles {
   /* SLUG BOXES */
   article.ui-patterns-list header span { @include rotate(270);top:100px;left:-40px; }
   article.paleo-bbq header { background-image:url('https://igcdn-photos-c-a.akamaihd.net/hphotos-ak-xfa1/t51.2885-15/11311496_647144222052626_899958026_n.jpg');background-size:95% 100%;}
+}
+div.yield {
+  img {
+    width:100%;
+  }
 }
