@@ -2,7 +2,7 @@ require 'rubygems'
 require 'statistrano'
 
 namespace :middleman do
-  task build: :environment do
+  task :build do
     system "middleman build"
   end
 end
