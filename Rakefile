@@ -1,5 +1,6 @@
 require 'rubygems'
 require 'middleman'
+require 'middleman-blog'
 require 'statistrano'
 
 deployment = define_deployment "basic" do
