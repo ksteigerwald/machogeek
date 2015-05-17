@@ -71,12 +71,13 @@ section.articles {
     background:#fff;
     border:1px solid #ccc;
     padding:1rem;
-
+    height:40rem;
     header {
       display:block;
       height:20rem;
       background:red;
       color:#fff;
+      position:relative;
       font-weight:900;
       span {
         position:absolute;
@@ -93,4 +94,5 @@ section.articles {
 
   /* SLUG BOXES */
   article.ui-patterns-list header span { @include rotate(270);top:100px;left:-40px; }
+  article.paleo-bbq header { background-image:url('https://igcdn-photos-c-a.akamaihd.net/hphotos-ak-xfa1/t51.2885-15/11311496_647144222052626_899958026_n.jpg');background-size:95% 100%;}
 }
