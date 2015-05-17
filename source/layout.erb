@@ -11,7 +11,16 @@
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
   </head>
   <body>
-
+    <nav>
+      <div class="row">
+        <div class="six columns">
+           <h1>MachoGeek</h1>
+        </div>
+        <div class="six columns">
+          <a href="/" class="u-pull-right">home</a>
+        </div>
+      </div>
+    </nav>
     <div id="main" class="container">
       <div class="row">
         <div class="eight columns">

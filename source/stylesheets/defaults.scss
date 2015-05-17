@@ -1,15 +1,36 @@
 body {
   background:#F0F0F0;
   font-family: 'Lato', sans-serif;
+  padding:0;
+  margin:0;
+  a {
+    color:#333;
+    text-decoration:none;
+  }
+  nav {
+    background:#333;
+    margin:0 0 5rem 0;
+    padding:1rem 2rem;
+    h1 {
+      color:#fff;
+      font-size:2rem;
+      font-weight:900;
+      padding:0;
+      margin:0;
+    }
+    a {
+      color:#fff;
+      text-transform:uppercase;
+    }
+  }
 }
-
 // generic transform
 @mixin transform($transforms) {
-     -moz-transform: $transforms;
-       -o-transform: $transforms;
-      -ms-transform: $transforms;
+  -moz-transform: $transforms;
+  -o-transform: $transforms;
+  -ms-transform: $transforms;
   -webkit-transform: $transforms;
-          transform: $transforms;
+  transform: $transforms;
 }
 // rotate
 @mixin rotate ($deg) {
@@ -17,47 +38,59 @@ body {
 }
 // scale
 @mixin scale($scale) {
-   @include transform(scale($scale));
+  @include transform(scale($scale));
 }
 // translate
 @mixin translate ($x, $y) {
-   @include transform(translate($x, $y));
+  @include transform(translate($x, $y));
 }
 // skew
 @mixin skew ($x, $y) {
-   @include transform(skew(#{$x}deg, #{$y}deg));
+  @include transform(skew(#{$x}deg, #{$y}deg));
 }
 //transform origin
 @mixin transform-origin ($origin) {
-    moz-transform-origin: $origin;
-       -o-transform-origin: $origin;
-      -ms-transform-origin: $origin;
+  moz-transform-origin: $origin;
+  -o-transform-origin: $origin;
+  -ms-transform-origin: $origin;
   -webkit-transform-origin: $origin;
-          transform-origin: $origin;
+  transform-origin: $origin;
+}
+aside {
+  h6 {
+    text-transform:uppercase;
+    font-weight:500;
+  }
 }
 section.articles {
   a {
     text-decoration:none;
     color:#333;
-    }
-    article {
-      background:#fff;
-      border:1px solid #ccc;
-      padding:1rem;
+  }
+  article {
+    background:#fff;
+    border:1px solid #ccc;
+    padding:1rem;
 
-      header {
+    header {
+      display:block;
+      height:20rem;
+      background:red;
+      color:#fff;
+      font-weight:900;
+      span {
+        position:absolute;
+        top:0;
+        left:0;
         display:block;
-        height:175px;
-        background:red;
-        color:#fff;
-        font-weight:900;
       }
-      p {
-        font-size:1.2rem;
-      }
-
-    /* SLUG BOXES */
-    .ui-patterns-list header span { @include rotate(20); }
-
     }
+    p {
+      font-size:1.2rem;
+    }
+
+  }
+
+  /* SLUG BOXES */
+  article.ui-patterns-list header span { @include rotate(270);top:100px;left:-40px; }
 }
