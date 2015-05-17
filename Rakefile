@@ -1,6 +1,5 @@
 require 'rubygems'
-require 'middleman'
-require 'middleman-blog'
+require File.expand_path('../middleman-core/lib/middleman-core/version.rb', __FILE__)
 require 'statistrano'
 
 deployment = define_deployment "basic" do
