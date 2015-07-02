@@ -1,6 +1,6 @@
 ---
 title: Learn fasting the hard way
-date: 2015-05-17
+date: 2015-06-02
 tags: paleo
 category: paleo
 ---
