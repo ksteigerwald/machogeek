@@ -9,14 +9,14 @@ Today will mark the 6th day of my water fast. For those who don't know - a water
 others have done over and over. Just know that fasting is a timeless tradition practiced by most if not all religions. While this was not my intent, I can say I feel I have an improved
 well being over the last few days. Especially now that I am nearing the end of my fast.
 
-To that extent I thought it might be worth posting the things that I feel really helped me to make it through this. In tandum I will list out my day to day to give readers a look at what my habits,
-thoughts and feelings were through out the course of the fast.
+To that extent I thought it might be worth posting the things that I feel really helped me to make it through this. In tandem will list out what my day to day has been like to give readers a look at
+what my experience has been like through course of the fast.
 
 Starting off I think its worth sharing that this is my 10th attempt in recent time at doing a prolong fast. I had done a few fasts before in my early twenties, 1-3 days mostly
 with my longest being 4.5 days. I had a real hard time adjusting and getting through the initial hump; which is the fist 3 days. After going most the day with out food I would seem to break down
 and just give into the urge of wanting to eat. This time around I fell I prepared better both mentally and physically to endure a prolong fast.
 
-##Preparation
+###Preparation
 Starting Weight: Guessing 204 - 203 lbs
 
 First off I made sure to stick to a strict paleo diet for the fist two weeks. No cheat days or one offs, just meat and veggies with some kombucha at dinner. On the day prior to fasting I drank
@@ -26,13 +26,13 @@ to mentally adjust as well.
 I started juice fasting on a Friday to make my work day pass a little easier. Each time I felt a little weak, I'd take a few sips from my juice bottle. I thought it best in this case not to drink the
 full amount but only give my body enough to settle the urge. It had some points that were difficult, yet it helped my mind to see the road ahead.
 
-##Day One
+###Day One
 Weigh in: No Record
 
 I started water fasting on a Saturday. I worked to keep busy by running errands to prep for my trip out west and playing a little Destiny on the side. When I wanted to eat I would
 simply distract or refocus. I recall taking a long nap on the first, when the hunger would hit hard, sleeping it off was the best remedy.
 
-##Day Two
+###Day Two
 Weigh in: 201 lbs
 
 Surprised to find that my hunger cravings had passed. I felt no movement in my stomach and didn't really think about food for the most part. Well at least not until I did something really stupid.
